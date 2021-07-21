@@ -1,11 +1,11 @@
-#wrap .header-wrap {
-  background-color: red;
+#wrap .header {
+  background-color: blue;
   height: 200px;
 }
 
 #wrap main {
   height: 1000px;
-  background-color: yellow;
+  background-color: green;
 }
 
 #wrap main .test1 {
@@ -13,7 +13,7 @@
 }
 
 #wrap main .test2 {
-  background-color: green;
+  background-color: yellow;
 }
 
 #wrap main .test3 {
@@ -22,5 +22,5 @@
 
 #wrap footer {
   height: 200px;
-  background-color: blue;
+  background-color: red;
 }

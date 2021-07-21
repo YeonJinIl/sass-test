@@ -1,1 +1,1 @@
-#wrap .header-wrap{background-color:red;height:200px}#wrap main{height:1000px;background-color:yellow}#wrap main .test1{background-color:blueviolet}#wrap main .test2{background-color:green}#wrap main .test3{background-color:#fff}#wrap footer{height:200px;background-color:blue}
+#wrap .header{background-color:blue;height:200px}#wrap main{height:1000px;background-color:green}#wrap main .test1{background-color:blueviolet}#wrap main .test2{background-color:yellow}#wrap main .test3{background-color:#fff}#wrap footer{height:200px;background-color:red}
