@@ -1,0 +1,25 @@
+#wrap {
+  .header-wrap {
+    background-color: red;
+    height: 200px;
+  }
+
+  main {
+    height: 1000px;
+    background-color: yellow;
+    .test1 {
+      background-color: blueviolet;
+    }
+    .test2 {
+      background-color: green;
+    }
+    .test3 {
+      background-color: #fff;
+    }
+  }
+
+  footer {
+    height: 200px;
+    background-color: blue;
+  }
+}
