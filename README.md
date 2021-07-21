@@ -16,7 +16,7 @@
     - window => Ctrl + p 입력 후 settings.json 입력
 
   - settings.json 파일에 붙여 넣기
-    ````
+    ```
     // 컴파일 포맷 방식 작성.
     "liveSassCompile.settings.formats": [
     {
@@ -33,5 +33,4 @@
     "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
     // 특정 파일만 컴파일 할 때 [파일 경로와 파일 명]
     "liveSassCompile.settings.includeItems": ["scss/*.scss"],
-       ```
-    ````
+    ```
