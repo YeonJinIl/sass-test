@@ -1,6 +1,6 @@
 #wrap {
   footer {
     height: 200px;
-    background-color: palevioletred;
+    @include pink;
   }
 }

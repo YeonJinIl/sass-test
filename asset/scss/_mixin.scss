@@ -1,0 +1,66 @@
+@mixin red {
+  background-color: red;
+}
+@mixin blue {
+  background-color: blue;
+}
+@mixin green {
+  background-color: green;
+}
+@mixin yellow {
+  background-color: yellow;
+}
+@mixin purple {
+  background-color: purple;
+}
+@mixin pink {
+  background-color: pink;
+}
+
+@mixin lg_color {
+  color: #a50034;
+}
+@mixin lg_bg_color {
+  background-color: #a50034;
+}
+
+/* float 시 clear both */
+@mixin clear {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+/* 한줄 말줄임표 */
+@mixin ellipsis($w) {
+  overflow: hidden;
+  display: block;
+  width: $w;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 두줄 이상 말줄임표 */
+@mixin ellipsis2($line, $w, $h) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  width: $w;
+  height: $h;
+}
+/* 메인 헤딩 */
+@mixin main_heading {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1.13;
+}
+/* position 가운데 정렬 */
+@mixin position_center($w) {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: $w;
+}

@@ -1,9 +1,52 @@
 #wrap {
   main {
     height: 1000px;
-    background-color: green;
+    @include blue;
     .test1 {
-      background-color: blueviolet;
+      .title {
+        color: #fff;
+        @include main_heading;
+      }
+      .list {
+        @include clear;
+        .item {
+          float: left;
+          width: 33.33%;
+          height: 100px;
+          &:nth-of-type(1) {
+            @include red;
+          }
+          &:nth-of-type(2) {
+            @include green;
+          }
+          &:nth-of-type(3) {
+            @include yellow;
+          }
+        }
+      }
+      .text {
+        border: 5px solid #000;
+        font-size: 24px;
+        height: 300px;
+        color: #fff;
+        @include ellipsis(300px);
+      }
+      .text2 {
+        border: 5px solid #000;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #fff;
+        @include ellipsis2(2, 100px, 60px);
+      }
+      .box-wrap {
+        height: 500px;
+        position: relative;
+        .box {
+          @include position_center(200px);
+          border: 1px solid yellow;
+          height: 200px;
+        }
+      }
     }
   }
 }

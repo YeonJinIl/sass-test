@@ -1,6 +1,6 @@
 #wrap {
   .header {
-    background-color: blue;
+    @include purple;
     height: 200px;
   }
 }
